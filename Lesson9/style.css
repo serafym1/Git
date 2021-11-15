@@ -55,9 +55,6 @@ ul {
 .header-menu-item {
     margin: 0 15px;
 }
-.header-intro {
-    
-}
 h1 {
     font-size: 48px;
     line-height: 24px;
@@ -105,3 +102,65 @@ h2 {
 .main-intro > p {
     text-align: center;
 }
+.main-views {
+    display: flex;
+    width: 100%;
+    margin: 50px 0;
+    justify-content: space-around;
+}
+.main-viev {
+    display: inline-block;
+    justify-content: center;
+    align-content: space-around;
+    width: 25%;
+}
+.main-header > i {
+    font-size: 50px;
+    color: rgb(145, 32, 32);
+}
+.main-header {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+.main-viev > p {
+    text-align: center;
+}
+.main-viev > h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(145, 32, 32);
+    height: 200px;
+}
+.container {
+    width: 100%;
+    display: flex;
+}
+.footer-inner {
+    width: 100%;
+    display: flex;
+}
+.footer-social {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+.social-icon {
+    display: inline-block;
+    margin: 50px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+.footer > p {
+    text-align: center;
+    color: white;
+}
+
+
+
