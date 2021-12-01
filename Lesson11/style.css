@@ -1,0 +1,34 @@
+a {
+    display: block;
+}
+.header-link > a:visited:first-of-type {
+    color: red;
+}
+.header-action > a {
+    color: green;
+    text-decoration: underline;
+}
+.header-action > a:hover:first-of-type {
+    text-decoration: none;
+}
+.header-action > a:active {
+    color: red;
+}
+#Surname {
+ 
+    width: 50px;
+    height: 10px;
+}
+#Surname:focus {
+    background-color: grey;
+}
+.input > p {
+    display: inline;
+}
+.checkbox {
+    display: inline;
+}
+
+.input {
+    display: inline;
+}
