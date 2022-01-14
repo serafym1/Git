@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    width: 100%;
+}
+body {
+    width: 100%;
+}
+.valanta {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    align-items: center;
+    height: 70px;
+}
+.val {
+    width: 120px;
+    height: 65px;
+}
+.smartphone {
+    width: 35px;
+    height: 35px;
+}
+.hr {
+    background-color: grey;
+    border: 1px solid grey;
+    height: 50px;
+}
+input {
+    background-color: rgba(239, 243, 246, 1);
+    border: rgba(239, 243, 246, 1);
+    height: 50px;
+}
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 80px;
+}
+.check {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -19px;
+}
+.check > img {
+    width: 20px;
+}
+.big-hr {
+    background-color: rgba(208, 208, 208, 1);
+    border: 1px solid rgba(208, 208, 208, 1);
+}
+.searsh {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -19px;
+}
+.sale {
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 22px;
+}
+.mastila {
+    padding: 150px;
+    height: 430px;
+    color: white;
+    background-image: url(image/mastila.png);
+}
+.mast {
+    font-size: 40px;
+    font-weight: 300px;
+}
+.more {
+    display: inline-block;
+    height: 55px;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 20px 80px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+
+}
+.turop {
+    height: 200px;
+    background-color: rgba(248, 248, 248, 1);
+    display: flex;
+    padding: 25px;
+}
+.operator {
+    width: 60%;
+    padding-left: 180px;
+}
+h2 {
+    padding: 10px 20px;
+}
+.operator > p {
+    padding: 10px 20px;
+}
+.operator > a {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px 20px;
+}
+.items {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.item {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.item > img {
+    display: inline-block;
+}
+.item > p {
+    display: inline-block;
+    margin-left: 15px;
+}
+.propositions {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(189, 189, 189, 1);
+    border: 1px solid rgba(189, 189, 189, 1);
+}
+.consultation {
+    text-decoration: none;
+    border: 1px solid rgba(150, 150, 150, 1);
+}
